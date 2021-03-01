@@ -5,7 +5,7 @@
     <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
         <div class="inputField">
             <label for="username">Username</label>
-            <input type="text" require id="username" name="username" placeholder="Username">
+            <input type="text" required id="username" name="username" placeholder="Username">
         </div>
 
         <div class="inputField">
